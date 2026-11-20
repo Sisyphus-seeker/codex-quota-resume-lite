@@ -1,0 +1,11 @@
+__pycache__/
+.local/
+*.sqlite*
+dist/
+upload-kit/
+.pytest_cache/
+*.log
+.env
+.env.*
+config/
+runtime/

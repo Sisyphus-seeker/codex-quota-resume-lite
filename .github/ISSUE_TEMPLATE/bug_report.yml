@@ -1,0 +1,31 @@
+name: 故障反馈
+description: 自动续接、安装或兼容性问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传认证文件、完整聊天、数据库、真实会话标识或自定义消息正文。截图也请先脱敏。
+  - type: input
+    id: plugin_version
+    attributes:
+      label: 插件版本
+      placeholder: 0.1.2
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows 与 Codex 版本
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 复现步骤、预期行为与实际行为
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: 已脱敏的状态
+      description: 例如 health、last_error、last_error_reason、状态计数；不需要聊天标识或消息正文。

@@ -1,0 +1,8 @@
+{
+  "name": "quota-resume-lite",
+  "version": "0.1.2",
+  "author": {"name": "Sisyphus-seeker", "url": "https://github.com/Sisyphus-seeker"},
+  "license": "MIT",
+  "description": "Windows desktop quota-reset continuation for all new quota interruptions. Per-user worker, global message, explicit one-time activation; no network-error recovery.",
+  "skills": "./skills/"
+}
